@@ -1,0 +1,23 @@
+{
+  "name": "memcached-fuzzer",
+  "version": "0.0.0",
+  "description": "A simple memcached server response fuzzer for testing the against different memcached ASCII protocol responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/3rd-Eden/memcached-fuzzer.git"
+  },
+  "keywords": [
+    "memcached",
+    "fuzzer",
+    "memcached-protocol"
+  ],
+  "dependencies": {
+    "garbage": "0.0.x"
+  },
+  "author": "Arnout Kazemier <info@3rd-Eden.com>",
+  "license": "MIT"
+}
